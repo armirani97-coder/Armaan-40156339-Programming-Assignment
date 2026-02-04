@@ -8,9 +8,50 @@ package com.mycompany.assignmentprogramming40156339;
  *
  * @author armir
  */
+import java.util.Scanner;
 public class AssignmentProgramming40156339 {
+    
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Scanner s = new Scanner(System.in);
+        String[]months=new String[12];
+        months[0]="January";
+        months[1]="February";
+        months[2]="March";
+        months[3]="April";
+        months[4]="May";
+        months[5]="June";
+        months[6]="July";
+        months[7]="August";
+        months[8]="September";
+        months[9]="October";
+        months[10]="November";
+        months[11]="December";
+        float[] temprature2023= new float[12];
+        float[] temprature2024=new float[12];
+        //-----------2023 temprature input-------
+        System.out.println("Enter temprature for the months of 2023:");
+        for(int i=0;i<12;i++){
+        System.out.print(months[i]+"=");
+        temprature2023[i]=s.nextFloat();}
+        
+        
+        //--------2024 temprature iput 2024----
+        System.out.println("Enter temprature for the months of 2024:");
+        for(int i=0;i<12;i++){
+        System.out.print(months[i]+"=");
+        temprature2024[i]=s.nextFloat();}
+        
+        System.out.println("temprature for the months of 2024:");
+        for(int i=0;i<12;i++){
+            
+        }
+        System.out.println("temprature for the months of 2023:");
+        for(int i=0;i<12;i++){
+        System.out.println(months[i]+"="+temprature2023[i]+"Celcius");
+        }
+        
+        
+        
     }
 }
