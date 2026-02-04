@@ -9,7 +9,7 @@ package com.mycompany.assignmentprogramming40156339;
  * @author armir
  */
 import java.util.Scanner;
-public class AssignmentProgramming40156339 {
+public class AssignmentProgramming40156339new {
     
 
     public static void main(String[] args) {
@@ -42,13 +42,13 @@ public class AssignmentProgramming40156339 {
         System.out.print(months[i]+"=");
         temprature2024[i]=s.nextFloat();}
         
-        System.out.println("temprature for the months of 2024:");
+        System.out.println("\ntemprature for the months of 2023:");
+        for(int i=0;i<12;i++)
+        {System.out.println(months[i]+"="+temprature2023[i]+"Celcius");
+            }
+        System.out.println("\ntemprature for the months of 2024:");
         for(int i=0;i<12;i++){
-            
-        }
-        System.out.println("temprature for the months of 2023:");
-        for(int i=0;i<12;i++){
-        System.out.println(months[i]+"="+temprature2023[i]+"Celcius");
+        System.out.println(months[i]+"="+temprature2024[i]+"Celcius");
         }
         
         
